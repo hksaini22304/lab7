@@ -43,7 +43,21 @@ btn. addEventListener("click", getPairing);
     "retro fun"
   ], 
 
+  social: [
+     "party hits",
+    "dance pop",
+    "throwbacks",
+    "girls night",
+    "karaoke pop",
+    "club energy",
+    "latin party",
+    "afrobeats party",
+    "r&b slow jams"
+  ],
+
   
+
+
 
 
  }
