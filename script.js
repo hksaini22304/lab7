@@ -159,4 +159,18 @@ const vibeArtists = {
 const DEFAULT_ARTISTS = [];
 
 
+// ------------------------
+// 3) HELPERS FOR DIVERSE PLAYLIST
+// ------------------------ 
+
+function pickRandomArtists(list, n = 5) {
+    const copy = [...list];
+    const picked = [];
+    while (copy.length && picked.length < n) {
+        const i = Math.floor(Math.random() * copy.length);
+        picked.push(copy.splice(i,1)[0]);
+    }
+    return picked;
+}
+
 
