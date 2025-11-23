@@ -77,7 +77,21 @@ btn. addEventListener("click", getPairing);
     "late night snacks"
   ],
 
+  relaxation: [
+"calm ambient",
+    "soft piano",
+    "mindfulness",
+    "spa music",
+    "sleepy lo-fi",
+    "rainy day",
+    "acoustic calm",
+    "nature chill",
+    "meditation bowls"
+  ],
+
   
+
+
 
 
 
