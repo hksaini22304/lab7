@@ -226,4 +226,18 @@ footer{
     font-size: 0.95rem;
 }
 
+/* ------------------ SMALL SCREENS RESPONSIVENESS ---------------- */
 
+@media (max-width: 480px){
+    .hero{
+        padding: 1.4rem 1rem 1.6rem;
+    }
+
+    .button{
+        width: 100%;
+        max-width: 260px;
+    }
+    .card{
+        padding: 1rem;
+    }
+}
