@@ -222,8 +222,23 @@ async function fetchDeezerPlaylistForVibe(vibe) {
         artistsUsed.push(artistName);
         const topTrack = await getTopTrakcsByArtistId(id,1);
         tracks = tracks.concat(topTrack);
-        
+
     }
+
+    //remove duplicate tracks
+    const uniqueTracks = [];
+    const seenIds = new Set();
+    for (const t of tracks) {
+        if (!seenIds.has(t.id)) {
+            uniqueTracks.push(t);
+            seenIds.add(t.id);
+        }
+    }
+
+    return {
+        tracks: shuffleArray(uniqueTracks),
+        artistsUsed
+    };
 }
 
 
