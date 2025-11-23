@@ -102,15 +102,20 @@ btn. addEventListener("click", getPairing);
 };
 
 
+function chooseMusicKeyword(activityText, type) {
+    const text = activityText.toLowerCase();
+
+    //1) Phrase rules first
+    for (const rule of phraseToKeywordRules) {
+        if (rule.match.some(m => text.includes(m))) return rule.keyword;
+    }
+
+    //2) fallback to type buckets 
+    const options = typeToMusicKeywords[type] || ["chill"];
+    return options[Math.floor(Math.random() * options.length)];
 
 
+}
 
 
-
-
-
-
-
-
-
- }
+//
