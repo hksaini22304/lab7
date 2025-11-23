@@ -181,3 +181,16 @@ function shuffleArray(arr) {
     }
     return a;
 }
+
+
+async function getArtistIdbyName(name) {
+    const searchUrl = `${DEEZER_ARTIST_SEARCH}${encodeURIComponent(name)}`;
+    const proxied = `${DEEZER_PROXY}${searchUrl}`;
+
+    const res = await fetch(proxied);
+    const data = await res.json();
+
+    return data.data && data.data[0] ? data.data[0].id : null;
+
+}
+
