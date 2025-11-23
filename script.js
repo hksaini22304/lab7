@@ -194,3 +194,14 @@ async function getArtistIdbyName(name) {
 
 }
 
+async function getTopTracksByArtistId(artistId, limit = 1) {
+    const topUrl = `https://api.deezer.com/artist/${artistId}/top?limit=${limit}`;
+    const proxied = `${DEEZER_PROXY}${topUrl}`;
+    
+    const res = await fetch(proxied);
+    const data = await res.json();
+
+    return data.data || [];
+}
+
+
