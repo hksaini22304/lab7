@@ -36,6 +36,12 @@ body{
       
 }
 
+.page{
+    width: min(1000px, 92vw);
+    margin: 0 auto;
+    padding: 1.2rem 0 2.2rem;
+}
+
 
 
 
