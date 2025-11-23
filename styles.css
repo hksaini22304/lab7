@@ -111,6 +111,19 @@ button:active{
 }
 
 
+/* -------------- LAYOUT ---------------*/
+
+main{
+    margin-top: 1.1rem;
+}
+
+.grid{
+    display: grid;
+    gap: 1.1rem;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    
+}
+
 
 
 
