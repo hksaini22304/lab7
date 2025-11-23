@@ -1,0 +1,22 @@
+:root{
+    /*base palette */
+    --bg: #0c0c12;
+    --bg-soft: #12121a;
+    --panel: rgba(255,255,255,0.08);
+    --panel-strong: rgba(255,255,255,0.12);
+    --border: rgba(255,255,255, 0.14);
+
+    --text: #f7f7fb;
+    --muted: #c9c9d6;
+
+    /* accents */
+
+    --accent1: #ffb6f5; 
+    --accent2: #b9c6ff;
+    --accent3: #a7f3d0;
+
+    --radius-lg: 18px;
+    --radius-md: 14px;
+    --radius-sm: 10px;
+}
+
