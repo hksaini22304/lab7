@@ -217,4 +217,13 @@ main{
     filter: drop-shadow(0 6px 10px rgba(0,0,0,0.35));
 }
 
+/* ------------ FOOTER -------------- */
+
+footer{
+    text-align: center;
+    margin-top: 1.3rem;
+    color: var(--muted);
+    font-size: 0.95rem;
+}
+
 
