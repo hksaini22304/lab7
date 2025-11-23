@@ -11,4 +11,25 @@ btn. addEventListener("click", getPairing);
  // Deezer proxy + endpoints
  const DEEZER_PROXY = "https://proxy.corsfix.com/?";
  const DEEZER_ARTIST_SEARCH = "https://api.deezer.com/search/artist?q=";
- 
+
+
+ //-------------------------------------
+ // 1) Activity → VIBE BUCKETS
+ // ------------------------------------
+
+ const typeToMusicKeywords = {
+
+     education: [
+    "lofi coding",
+    "focus",
+    "focus beats",
+    "deep work",
+    "instrumental study",
+    "soft piano",
+    "ambient concentration",
+    "productive indie",
+    "classical focus"
+  ],
+
+
+ }
