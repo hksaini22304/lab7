@@ -31,5 +31,19 @@ btn. addEventListener("click", getPairing);
     "classical focus"
   ],
 
+  recreational: [
+     "upbeat",
+    "summer vibes",
+    "feel good pop",
+    "indie pop",
+    "alt fun",
+    "road trip",
+    "dance chill",
+    "happy acoustic",
+    "retro fun"
+  ], 
+
+  
+
 
  }
