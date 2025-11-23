@@ -99,6 +99,16 @@ button{
     transition: transform 0.08s ease, opacity 0.2s ease, box-shadow 0.2s ease;
 }
 
+button:hover{
+    opacity: 0.96;
+    box-shadow:
+      0 10px 22px rgba(185,198,255,0.28),
+      0 0 0 1px rgba(255,255,255,0.45) inset;
+}
+
+button:active{
+    transform: translateY(1px) scale(0.99);
+}
 
 
 
