@@ -71,8 +71,16 @@ body{
     color: var(--muted);
     font-size: 1.02rem;
     line-height: 1.5;
-    
+
 }
+
+.hero-actions{
+    display: flex;
+    justify-content: center;
+    gap: 0.6rem;
+}
+
+
 
 
 
