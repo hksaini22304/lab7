@@ -160,5 +160,31 @@ main{
 }
 
 
+/* -------------- TEXT STYLES ---------------- */
+
+.content p{ 
+    margin: 0.45rem 0;
+    line-height: 1.55;
+}
+
+.label{
+    color: var(--muted);
+    font-size: 0.95rem;
+}
+
+.badge{
+    display: inline-block;
+    margin-top: 0.7rem;
+    padding: 0.28rem 0.65rem;
+    font-size: 0.86rem;
+    border-radius 999px;
+    background: var(--panel-strong);
+    border: 1px solid var(--border);
+    color: var(--text);
+    letter-spacing: 0.2px;
+}
+
+
+
 
 
