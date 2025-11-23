@@ -20,3 +20,13 @@
     --radius-sm: 10px;
 }
 
+* { box-sizing: border-box;}
+
+body{
+    margin: 0;
+    font-family: "DM Sans", system-ui, Arial, sans-serif;
+    color: var(--text);
+    min-height: 100vh;
+}
+
+
