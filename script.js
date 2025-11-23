@@ -118,4 +118,38 @@ function chooseMusicKeyword(activityText, type) {
 }
 
 
-//
+// ------------------------------
+// 2) VIBE  → ARTISTS 
+// ------------------------------
+
+const vibeArtists = {
+    // -- EDUCATION vibes --- 
+
+
+
+
+    // --- RECREATIONAL vibes ---
+
+
+
+    // --- SOCIAL vibes ---
+
+
+    // --- CHARITY vibes ---
+
+
+
+    // --- COOKING vibes ---
+
+
+    // --- RELAXATION vibes ---
+
+
+
+
+    // --- BUSYWORK vibes ---
+
+
+
+};
+
