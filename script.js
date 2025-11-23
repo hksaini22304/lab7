@@ -55,7 +55,19 @@ btn. addEventListener("click", getPairing);
     "r&b slow jams"
   ],
 
+  charity: [
+    "uplifting",
+    "inspiring acoustic",
+    "hopeful pop",
+    "soulful gospel",
+    "feel good indie",
+    "peaceful ambient",
+    "heartwarming piano"
+  ],
+
   
+
+
 
 
 
