@@ -205,3 +205,26 @@ async function getTopTracksByArtistId(artistId, limit = 1) {
 }
 
 
+// DIVERSE PLAYLIST: 
+// 5 artists from same vibe, 1 top track each
+async function fetchDeezerPlaylistForVibe(vibe) {
+    const pool = vibeArtists[vibe] || DEFAULT_ARTISTS;
+    const chosenArtists = pickRandomArtists(pool, 5);
+
+
+    let tracks = [];
+    let artistsUsed = [];
+     
+    for (const artistName of chosenArtists) {
+        const id = await getArtistIdByName(artistName);
+        if (!id) continue;
+
+        artistsUsed.push(artistName);
+        const topTrack = await getTopTrakcsByArtistId(id,1);
+        tracks = tracks.concat(topTrack);
+        
+    }
+}
+
+
+
