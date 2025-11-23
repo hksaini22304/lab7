@@ -27,6 +27,16 @@ body{
     font-family: "DM Sans", system-ui, Arial, sans-serif;
     color: var(--text);
     min-height: 100vh;
+
+    background:
+      radial-gradient(900px 520px at -10% -10%, #2b1b3c 0%, transparent 60%),
+      radial-gradient(850px 600px at 112% -20%, #17254d 0%, transparent 58%),
+      radial-gradient(900px 720px at 50% 120%, #123a2b 0%, transparent 62%),
+      var(--bg);
+      
 }
+
+
+
 
 
