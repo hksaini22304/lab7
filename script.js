@@ -242,4 +242,38 @@ async function fetchDeezerPlaylistForVibe(vibe) {
 }
 
 
+// --------------------------
+// 4) RENDER PLAYLIST 
+// --------------------------
+
+
+function renderPlaylist(tracks, vibe, artistUsed) {
+    if (!tracks.length) {
+        playlistDiv.innerHTML = `<p>No tracks found for this vibe. Try again.</p>`;
+        return;
+    }
+    
+    const listItems = tracks.map(track => {
+        const preview = track.preview
+        ? `audio controls src="${track.preview}"></audio>`
+        : `<p class ="label">No preview available</p>`;
+
+
+        return `
+        <li class="track">
+        <p><strong>${track.title}</strong></p>
+        <p class= "label">Artist: ${track.artist.name}</p>
+        ${preview}
+        </li>
+        `;
+    }).join("");
+
+    playlistDiv.innerHTML = `
+     <p class="label">Vibe: <strong>${vibe}</strong></p>
+    <p class="label">Artists mixed: <strong>${artistsUsed.join(", ")}</strong></p>
+    <ul class="playlist">${listItems}</ul>
+    <span class="badge">Mini-Playlist 🎶</span>
+    `;
+}
+
 
