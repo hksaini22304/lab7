@@ -89,7 +89,21 @@ btn. addEventListener("click", getPairing);
     "meditation bowls"
   ],
 
-  
+  busywork: [
+    "productivity",
+    "work music",
+    "focus beats",
+    "hyperfocus",
+    "cleaning groove",
+    "motivation pop",
+    "energetic indie",
+    "study sprint"
+  ]
+};
+
+
+
+
 
 
 
