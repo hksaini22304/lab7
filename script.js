@@ -65,7 +65,20 @@ btn. addEventListener("click", getPairing);
     "heartwarming piano"
   ],
 
+  cooking: [
+    "chill kitchen jazz",
+    "bossa nova",
+    "r&b chill",
+    "cafe vibes",
+    "italian dinner",
+    "soft indie",
+    "oldies cooking",
+    "funky kitchen",
+    "late night snacks"
+  ],
+
   
+
 
 
 
