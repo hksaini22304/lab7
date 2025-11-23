@@ -153,3 +153,10 @@ const vibeArtists = {
 
 };
 
+//If a phrase rule picks something not in vibeArtists, 
+// we still want a fallback list:
+
+const DEFAULT_ARTISTS = [];
+
+
+
