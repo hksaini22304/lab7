@@ -146,6 +146,15 @@ const vibeArtists = {
   "retro fun": ["ABBA", "Earth, Wind & Fire", "Bee Gees"],
 
     // --- SOCIAL vibes ---
+ "party hits": ["David Guetta", "Calvin Harris", "Pitbull", "Rihanna", "The Weeknd"],
+  "dance pop": ["Lady Gaga", "Ariana Grande", "Rihanna", "Katy Perry"],
+  "throwbacks": ["Usher", "Beyoncé", "Britney Spears", "Ne-Yo", "Destiny’s Child"],
+  "girls night": ["Doja Cat", "Nicki Minaj", "Megan Thee Stallion", "SZA"],
+  "karaoke pop": ["Taylor Swift", "Olivia Rodrigo", "Adele", "Bruno Mars"],
+  "club energy": ["Swedish House Mafia", "Martin Garrix", "Tiesto"],
+  "latin party": ["Bad Bunny", "J Balvin", "Karol G", "Daddy Yankee"],
+  "afrobeats party": ["Burna Boy", "Wizkid", "Tems", "Davido"],
+  "r&b slow jams": ["SZA", "Frank Ocean", "Daniel Caesar", "H.E.R."],
 
 
     // --- CHARITY vibes ---
