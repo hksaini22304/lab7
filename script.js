@@ -12,7 +12,7 @@ const DEEZER_PROXY = "https://proxy.corsfix.com/?";
 const DEEZER_ARTIST_SEARCH = "https://api.deezer.com/search/artist?q=";
 
 // -----------------------------
-// 1) ACTIVITY → VIBE BUCKETS (EXPANDED)
+// 1) ACTIVITY → VIBE BUCKETS
 // -----------------------------
 
 const typeToMusicKeywords = {
@@ -98,7 +98,7 @@ const typeToMusicKeywords = {
   ]
 };
 
-// Phrase rules override the type buckets for extra accuracy
+// Phrase rules override the type buckets for accuracy
 const phraseToKeywordRules = [
   { match: ["website", "blog", "coding", "javascript", "learn"], keyword: "lofi coding" },
   { match: ["woodworking", "woodwork", "diy", "build", "craft"], keyword: "indie folk" },
