@@ -158,7 +158,13 @@ const vibeArtists = {
 
 
     // --- CHARITY vibes ---
-
+ "uplifting": ["Coldplay", "OneRepublic", "Kygo", "Avicii"],
+  "inspiring acoustic": ["Ben Howard", "Vance Joy", "Jack Johnson", "Novo Amor"],
+  "hopeful pop": ["Imagine Dragons", "Kelly Clarkson", "Florence + The Machine"],
+  "soulful gospel": ["Kirk Franklin", "Tasha Cobbs Leonard", "CeCe Winans"],
+  "feel good indie": ["The Paper Kites", "Novo Amor", "The Lumineers"],
+  "peaceful ambient": ["Brian Eno", "Hammock", "Tycho"],
+  "heartwarming piano": ["Yiruma", "Einaudi", "Max Richter"],
 
 
     // --- COOKING vibes ---
