@@ -220,7 +220,7 @@ async function fetchDeezerPlaylistForVibe(vibe) {
         if (!id) continue;
 
         artistsUsed.push(artistName);
-        const topTrack = await getTopTrakcsByArtistId(id,1);
+        const topTrack = await getTopTracksByArtistId(id,1);
         tracks = tracks.concat(topTrack);
 
     }
