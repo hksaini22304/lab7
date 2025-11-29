@@ -276,4 +276,28 @@ function renderPlaylist(tracks, vibe, artistUsed) {
     `;
 }
 
+// -----------------------------
+// 5) MAIN FLOW 
+// -----------------------------
 
+async function getPairing() {
+  activityDiv.innerHTML = "Loading activity...";
+  playlistDiv.innerHTML = "Loading playlist..."; 
+}
+
+try {
+    //Fetch activity
+    const activityRes = await fetch(BORED_URL);
+    const activityData = await activityRes.json();
+
+    const activityText = activityData.activity;
+    const type = activityData.type;
+
+    activityDiv.innerHTML = `
+    <p><strong>${activityText}</strong></p>
+    <p class="label">Type: ${type}</p>
+    <p class="label">Participants: ${activityData.participants}</p>
+    <span class="badge">New Activity ✨</span>
+    `;
+
+}
