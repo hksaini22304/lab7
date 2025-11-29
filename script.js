@@ -283,7 +283,7 @@ function renderPlaylist(tracks, vibe, artistUsed) {
 async function getPairing() {
   activityDiv.innerHTML = "Loading activity...";
   playlistDiv.innerHTML = "Loading playlist..."; 
-}
+
 
 try {
     //Fetch activity
@@ -294,10 +294,27 @@ try {
     const type = activityData.type;
 
     activityDiv.innerHTML = `
-    <p><strong>${activityText}</strong></p>
-    <p class="label">Type: ${type}</p>
-    <p class="label">Participants: ${activityData.participants}</p>
-    <span class="badge">New Activity ✨</span>
+      <p><strong>${activityText}</strong></p>
+      <p class="label">Type: ${type}</p>
+      <p class="label">Participants: ${activityData.participants}</p>
+      <span class="badge">New Activity ✨</span>
     `;
 
+    //  Choose vibe from buckets
+    const vibe = chooseMusicKeyword(activityText, type);
+
+    //  Get diverse playlist for that vibe
+    const { tracks, artistsUsed } = await fetchDeezerPlaylistForVibe(vibe);
+
+    //  Render the playlist
+    renderPlaylist(tracks, vibe, artistsUsed);
+
+} catch (err) {
+    activityDiv.innerHTML = "Failed to load activity.";
+    playlistDiv.innerHTML = "Failed to load playlist.";
+    console.error(err);
 }
+
+}
+
+
