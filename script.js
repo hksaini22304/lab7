@@ -178,9 +178,14 @@ const vibeArtists = {
   "late night snacks": ["The Weeknd", "Drake", "PARTYNEXTDOOR"],
 
     // --- RELAXATION vibes ---
-
-
-
+ "calm ambient": ["Brian Eno", "Hammock", "Stars of the Lid", "Ólafur Arnalds"],
+  "mindfulness": ["Hammock", "Tycho", "Ólafur Arnalds"],
+  "spa music": ["Liquid Mind", "Deuter", "Enya"],
+  "sleepy lo-fi": ["Lofi Girl", "Jinsang", "Kudasai"],
+  "rainy day": ["Cigarettes After Sex", "Phoebe Bridgers", "Bon Iver"],
+  "acoustic calm": ["Novo Amor", "Ben Howard", "The Paper Kites"],
+  "nature chill": ["Tycho", "Explosions in the Sky", "Bonobo"],
+  "meditation bowls": ["Tibetan Bowls", "Healing Frequency Music", "Calm Collective"],
 
     // --- BUSYWORK vibes ---
 
