@@ -135,8 +135,15 @@ const vibeArtists = {
   "soft piano": ["Ludovico Einaudi", "Yiruma", "Ólafur Arnalds", "Max Richter"],
 
     // --- RECREATIONAL vibes ---
-
-
+"upbeat": ["Dayglow", "LANY", "Rex Orange County", "Wallows", "Surfaces"],
+  "summer vibes": ["Rex Orange County", "Dayglow", "LANY", "Surfaces", "Harry Styles"],
+  "feel good pop": ["Dua Lipa", "Harry Styles", "Charlie Puth", "Katy Perry", "Beyoncé"],
+  "indie pop": ["Clairo", "Coin", "Wallows", "The 1975"],
+  "alt fun": ["Glass Animals", "Hippo Campus", "Cage the Elephant"],
+  "road trip": ["Fleetwood Mac", "Tom Petty", "The Lumineers", "Khalid"],
+  "dance chill": ["Kaytranada", "Disclosure", "ODESZA"],
+  "happy acoustic": ["Jack Johnson", "Jason Mraz", "Vance Joy"],
+  "retro fun": ["ABBA", "Earth, Wind & Fire", "Bee Gees"],
 
     // --- SOCIAL vibes ---
 
