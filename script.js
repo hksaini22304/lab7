@@ -188,10 +188,17 @@ const vibeArtists = {
   "meditation bowls": ["Tibetan Bowls", "Healing Frequency Music", "Calm Collective"],
 
     // --- BUSYWORK vibes ---
-
-
-
+  "productivity": ["Tycho", "Bonobo", "ODESZA", "Lofi Girl", "Nujabes"],
+  "work music": ["Tycho", "Bonobo", "Nujabes", "Jinsang"],
+  "hyperfocus": ["Chillhop Music", "Tycho", "Bonobo"],
+  "cleaning groove": ["Lizzo", "Bruno Mars", "Dua Lipa"],
+  "motivation pop": ["Imagine Dragons", "Ariana Grande", "The Weeknd"],
+  "energetic indie": ["Wallows", "Dayglow", "Glass Animals"],
+  "study sprint": ["Lofi Girl", "Chillhop Music", "idealism"]
 };
+
+
+
 
 //If a phrase rule picks something not in vibeArtists, 
 // we still want a fallback list:
