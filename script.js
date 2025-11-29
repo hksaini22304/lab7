@@ -168,7 +168,14 @@ const vibeArtists = {
 
 
     // --- COOKING vibes ---
-
+  "chill kitchen jazz": ["Cafe Music BGM", "Jazz Vibes", "Bossa Nova Quartet", "Stan Getz"],
+  "bossa nova": ["Stan Getz", "João Gilberto", "Antonio Carlos Jobim"],
+  "r&b chill": ["SZA", "Daniel Caesar", "H.E.R.", "Frank Ocean"],
+  "cafe vibes": ["Norah Jones", "Bill Evans", "Chet Baker"],
+  "italian dinner": ["Andrea Bocelli", "Eros Ramazzotti", "Il Volo"],
+  "oldies cooking": ["Stevie Wonder", "Marvin Gaye", "The Temptations"],
+  "funky kitchen": ["Bruno Mars", "Mark Ronson", "Jamiroquai"],
+  "late night snacks": ["The Weeknd", "Drake", "PARTYNEXTDOOR"],
 
     // --- RELAXATION vibes ---
 
