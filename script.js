@@ -317,4 +317,6 @@ try {
 
 }
 
+//Auto-load once on start
+getPairing();
 
