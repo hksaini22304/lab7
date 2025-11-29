@@ -102,6 +102,21 @@ btn. addEventListener("click", getPairing);
 };
 
 
+//Phrase rules override the type buckets for accuracy
+constphrasetoKeywordRules = [
+  { match: ["website", "blog", "coding", "javascript", "learn"], keyword: "lofi coding" },
+  { match: ["woodworking", "woodwork", "diy", "build", "craft"], keyword: "indie folk" },
+  { match: ["game night", "friends over", "party", "board game"], keyword: "party hits" },
+  { match: ["text a friend", "call a friend", "friendship"], keyword: "feel good pop" },
+  { match: ["relax", "self care", "meditate", "calm"], keyword: "calm ambient" },
+  { match: ["cook", "bake", "recipe", "meal"], keyword: "chill kitchen jazz" },
+  { match: ["workout", "exercise", "fitness"], keyword: "workout energy" },
+  { match: ["walk", "hike", "outdoors", "nature"], keyword: "nature chill" },
+  { match: ["draw", "paint", "art"], keyword: "soft indie" },
+  { match: ["garden", "plants", "pot some plants"], keyword: "calm ambient" },
+  { match: ["clean", "organize", "declutter"], keyword: "cleaning groove" }
+];
+
 function chooseMusicKeyword(activityText, type) {
     const text = activityText.toLowerCase();
 
