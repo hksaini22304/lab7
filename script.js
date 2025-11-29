@@ -124,9 +124,15 @@ function chooseMusicKeyword(activityText, type) {
 
 const vibeArtists = {
     // -- EDUCATION vibes --- 
-
-
-
+"lofi coding": ["Lofi Girl", "potsu", "eevee", "Nujabes", "Jinsang", "Kudasai", "idealism"],
+  "focus": ["Chillhop Music", "Tycho", "Bonobo", "ODESZA", "Lofi Girl"],
+  "focus beats": ["Chillhop Music", "Tycho", "Nujabes", "Jinsang", "Lofi Girl"],
+  "deep work": ["Tycho", "Bonobo", "Nils Frahm", "Emancipator"],
+  "instrumental study": ["Explosions in the Sky", "This Will Destroy You", "Tycho"],
+  "ambient concentration": ["Brian Eno", "Hammock", "Stars of the Lid", "Ólafur Arnalds"],
+  "productive indie": ["Dayglow", "Wallows", "Rex Orange County", "LANY"],
+  "classical focus": ["Max Richter", "Ludovico Einaudi", "Yiruma", "Ólafur Arnalds"],
+  "soft piano": ["Ludovico Einaudi", "Yiruma", "Ólafur Arnalds", "Max Richter"],
 
     // --- RECREATIONAL vibes ---
 
